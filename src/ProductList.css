@@ -40,6 +40,12 @@ body {
 }
 
 /* Product Grid */
+.product-category-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
 .product-grid {
     display:flex;
     flex-direction: column;
@@ -111,6 +117,9 @@ body {
     background-color: #c0392b;
 }
 
+.btn-disabled {
+    background-color: #777!important;
+}
 /* Pseudo-elements - Sale badge */
 .product-card::before {
     content: "SALE";
